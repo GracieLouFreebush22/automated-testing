@@ -14,7 +14,7 @@ function findShortestString(stringArr) {
       shortestString = str;
     }
   }
-  return shortestString.length;
+  return shortestString;
 }
 module.exports = findShortestString;
 //console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
