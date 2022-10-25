@@ -1,6 +1,6 @@
 "use strict";
 
-const { check } = require("prettier");
+//const { check } = require("prettier");
 
 /**
  * Find the longest string in an array.
@@ -21,5 +21,5 @@ function findLongestString(stringArr) {
 
 // export function so it can be used in test file
 module.exports = findLongestString;
-//to check, expect wrapper, check against, method wrapper 
+//to check, expect wrapper, check against, method wrapper
 //expect(findLongestString(["cat","dogs"]).toBe(["dogs"]));
