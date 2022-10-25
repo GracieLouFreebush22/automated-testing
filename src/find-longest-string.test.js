@@ -10,5 +10,5 @@ test("findLongestString returns the earlier string in cases of joint longest str
   expect(findLongestString(["brave", "dance"])).toBe("brave");
 });
 test("findLongestString returns the earlier string in cases of joint longest strings", () => {
-  expect(findLongestString(["cat","dogs"])).toBe("dogs");
+  expect(findLongestString(["cat", "dogs"])).toBe("dogs");
 });
